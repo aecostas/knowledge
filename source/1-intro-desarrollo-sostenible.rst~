@@ -1,0 +1,133 @@
+Protocols
+==========================================
+
+Sippojs provides 3 custom protocols using datapipes:
+
+- **Selfie**:
+- **Whiteboard**:
+- **Forms**:
+
+Each protocol defines custom messages to provide the funcionality.
+
+
+
+Selfie
+-------------
+
+A selfie is created by the agent calling ``createSelfie`` function or by the client listening to the ``selfie-invite`` event, when some peer calls ``selfie.cancel()`` the datapipe is disconnected. This protocol defines the following messages:
+
+- **selfie-invite** : Used to create a new selfie
+- **taking:** Notify the agent that client is taking a selfie.
+- **image:** Send the image to the agent.
+
+::
+
+	{
+		command: "selfie-invite",
+	}
+	{
+		command: "taking",
+	}
+	{
+		command: "image",
+		image: <base64Image>,
+	}
+.. image:: selfie.png
+https://docs.google.com/drawings/d/1rZMyp6a7jnt43jKMe64tsZmyHJv9ns48OHihrqkAuQc/edit
+
+
+
+Forms
+-------------
+A local form is created calling ``formTemplate.createForm()`` while a remote form is created listening to the ``incomingForm`` event.
+This protocol defines the following messages:
+
+- **form:** Used to create a new form, initializing name, fields, values...
+- **value:** Update a field value.
+- **focus:** Set remote focus on a field.
+- **blur:** Remove the focus on a field.
+
+::
+
+	{
+		cmd: "form",
+		data: {
+			id: <string>,
+			name: <string>,
+			fields: [<object>],
+			values: [<string>]
+		}
+	}
+	{
+		cmd: "value",
+		index: <int>,
+		value: <string>,
+	}
+	{
+		cmd: "focus",
+		index: <int>,
+	},
+	{
+		cmd: "blur",
+		index: <int>,
+	}
+
+.. image:: forms.png
+https://docs.google.com/drawings/d/1-z-oE1JhHwy2xx6vm747FDyREcoi3uRrqvo9yhIBXKw/edit
+
+
+Whiteboard
+-------------
+A `local whiteboard is created ``session.createWhiteboard()` while a remote whiteboard is created listening to the ``incommingWhiteBoard`` event.
+The whiteboard protocol has the following mesagges:
+
+- ** shape:** Used to notify any event related with whiteboard: draw a new shape, select, erase...
+- ** ready:** Launched when whiteboard is ready.
+
+::
+
+	{
+		cmd: "ready",
+	}
+
+	{
+		cmd: "shape",
+		type: "line",
+		id: <id>,
+		path: [<point>],
+		stroke: <color>,
+		fill: <color>,
+	}
+	{
+		cmd: "shape",
+		type: "freedraw",
+		id: <id>,
+		path: [<point>],
+		stroke: <color>,
+		fill: <color|none>,
+	}
+	{
+		cmd: "shape",
+		type: "circle",
+		id: <id>,
+		cx:<point>,
+		cy:<point>,
+		r: <float>,
+		stroke: <color>,
+		fill: <color>,
+	}
+	{
+		cmd: "shape",
+		type: "rect",
+		id: <id>,
+		x: <point>,
+		y: <point>,
+		width:<point>,
+		height:<point>,
+		stroke: <color>,
+		fill: <color>,
+	}
+
+.. image:: whiteboard.png
+https://docs.google.com/drawings/d/1h-p4_hP79IeJFgXIdUGD67vupi54UQPSji12kSFXSmI/edit
+
