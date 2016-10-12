@@ -2,8 +2,8 @@ Toledo
 ======
 
 En esta estancia relámpago en Toledo hicimos noche en
-`Posada de peregrinos <http://www.posadadeperegrinos.es/>`, una pensión
-pequeña y acogedora, acorde con su nota en `TripAdvisor <https://www.tripadvisor.es/Hotel_Review-g187489-d4154925-Reviews-Posada_de_Peregrinos-Toledo_Province_of_Toledo_Castile_La_Mancha.html>`
+`Posada de peregrinos <http://www.posadadeperegrinos.es/>`_, una pensión
+pequeña y acogedora, acorde con su nota en `TripAdvisor <https://www.tripadvisor.es/Hotel_Review-g187489-d4154925-Reviews-Posada_de_Peregrinos-Toledo_Province_of_Toledo_Castile_La_Mancha.html>`_
 
 Toledo es una ciudad con mucha historia, cuyo casco antiguo está
 protegido por el río Tajo, que la bordea en un setenta por ciento, y por
@@ -12,6 +12,8 @@ invasiones por la fuerza. Esto ha permitido que a día de hoy podamos
 apreciar restos de las tres culturas principales que han existido
 en la ciudad: cristiana, árabe y judía.
 
+Templarios
+**********
 La ciudad está impregnada de secretos, leyendas y brujerías que
 alimentan la imaginación y la sugestión. No podían faltar entonces
 capítulos en su historia protagonizados por la *Orden de los Pobres
@@ -47,9 +49,26 @@ y Felipe IV lo hizo en noviembre del mismo año, cumpliéndose así
 la profecía de Molay.
 
 En la historia de Toledo ha habido un episodio clave en lo que a
-templarios se refiere: las luchas entre cristianos y musulmanes.
+templarios se refiere, que no es otro que la reconquista. Alfonso VIII,
+en su lucha con los árabes se vio obligado a
+pedir ayuda a la orden. A cambio, ofreció el Castillo de San Servando,
+una iglesia y algunas casas en los alrededores de la misma. No
+existe documentación escrita de cuál fue la iglesia, si bien algunos
+indicios apuntan a la de San Miguel, como la presencia de varias cruces
+templarias en su interior o el gran tamaño de su puerta, que podría
+servir para el paso de caballerías.
+
+
+El Greco
+********
+.. image:: img/El_entierro_del_señor_de_Orgaz_-_El_Greco.jpg
+
 
 
 http://toledoolvidado.blogspot.com.es/2010/04/la-iglesia-de-san-miguel-el-alto.html
 
 
+Libros:
+
+* Los templarios en Toledo, de Luis Rodríguez Bausá
+* EL JUEGO TEMPLARIO DE LA OCA EN EL CAMINO DE SANTIAGO, Fernando Lalanda

@@ -1,6 +1,6 @@
 
-Introducción al desarrollo sostenible
-==========================================
+Viajes
+======
 
 .. toctree::
    :maxdepth: 2
