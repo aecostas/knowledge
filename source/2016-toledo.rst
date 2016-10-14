@@ -1,5 +1,5 @@
 Toledo
-======
+######
 
 En esta estancia relámpago en Toledo hicimos noche en
 `Posada de peregrinos <http://www.posadadeperegrinos.es/>`_, una pensión
@@ -71,7 +71,22 @@ es que el juego de la oca es un mapa de ida y vuelta del camino
 de Santiago. Si bien algunos autores discrepan, es una hipótesis
 ampliamente aceptada.
 
+Leyendas
+********
+Pocas esquinas quedan en Toledo que no sean escenario de alguna
+leyenda. Se narran a continuación algunas de ellas. Existe mucha
+literatura al respecto, algunas incluso grandes obras como las
+*Rimas y Leyendas* de Gustavo Adolfo Bécquer.
 
+El pozo amargo
+==============
+
+Duelo entre caballeros
+======================
+
+El fantasma del castillo de San Servando
+========================================
+ 
 
 El Greco
 ********
