@@ -58,6 +58,20 @@ indicios apuntan a la de San Miguel, como la presencia de varias cruces
 templarias en su interior o el gran tamaño de su puerta, que podría
 servir para el paso de caballerías.
 
+Uno de los ejemplos de su gestión financiera la encontramos en el Camino
+de Santiago. Los peregrinos confiaban su dinero a los templarios y estos
+les permitían llevar consigo lo necesario para una jornada. La orden
+disponía de una red de casas maestras, distantes entre sí una jornada
+andando, de esta forma los peregrinos tenían siempre el dinero suficiente
+para pasar un día, pero al no llevarlo todo consigo no corrían el
+riesgo de perderlo todo en caso de ser robado. ¿Y cómo sabían los
+peregrinos dónde estaba el siguiente albergue? Con lo que hoy se
+conoce como "juego de la oca". Sorprende a primera vista pero lo cierto
+es que el juego de la oca es un mapa de ida y vuelta del camino
+de Santiago. Si bien algunos autores discrepan, es una hipótesis
+ampliamente aceptada.
+
+
 
 El Greco
 ********
